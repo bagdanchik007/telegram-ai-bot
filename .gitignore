@@ -1,0 +1,59 @@
+# Build-Artefakte
+build/
+build-*/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+Makefile
+
+# Kompilierte Dateien
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.out
+*.pdb
+
+# Geheimnisse – niemals committen!
+.env
+.env.*
+!.env.example
+
+# IDEs / Editoren
+.vscode/
+.idea/
+*.swp
+*~
+.cache/
+.DS_Store
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Alte Git-Sicherung
+.git-backup/
+
+# Build-Artefakte
+build/
+cmake-build-*/
+out/
+
+# IDE
+.vscode/
+.idea/
+
+# Compiler-Artefakte
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+*.exe
